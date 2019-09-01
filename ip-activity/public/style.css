@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.centerTitle {
+  text-align: center;
+  width: 100%;
+}
+
+.loadingImage {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.waleLoading {
+  background-color: #00a8d8;
+  width: 100%;
+}
+
+.fracLoading {
+  background-color: black;
+  width: 100%;
+}
+
+.ibmLoading {
+  background-color: #001f36;
+  width: 100%;
+}
+
+.zingGridHolder {
+  width:100%;
+}

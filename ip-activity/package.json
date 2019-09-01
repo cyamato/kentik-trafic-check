@@ -1,0 +1,30 @@
+{
+  "name": "ip-activity",
+  "version": "1.0.0",
+  "description": "Get the activity for an IP Address based on its flow as reported by Kentik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/pm2 start ./process.json --env production",
+    "startDev": "node index.js | ./node_modules/.bin/bunyan",
+    "install": "",
+    "postinstall": "./node_modules/.bin/pm2 save && ./node_modules/.bin/pm2 startup",
+    "uninstall": "./node_modules/.bin/pm2 stop IP_Activity && ./node_modules/.bin/pm2 save && ./node_modules/.bin/pm2 pm2 unstartup && ./node_modules/.bin/pm2 startup"
+  },
+  "keywords": [
+    "kentik",
+    "IP",
+    "Flow"
+  ],
+  "author": "Craig K Yamato II",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "js-yaml": "^3.12.1",
+    "pm2": "^3.3.1",
+    "restify": "^7.7.0",
+    "restify-clients": "^2.6.4",
+    "restify-errors": "^6.1.1",
+    "simple-token-bucket": "^1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "top": {
+    "title": "フローチェック",
+    "welcome": "このツールを使用すると、すぐにIPアドレスのいずれかの記録された活動のためにチェックするか、デバイスが現在の流れ源である場合に確認することができます。 Kentikデータエンジン・ポータルへのリンクが含まれるが、それらを使用することができKentikポータルでログインすることが必要とされています。",
+    "lngSelector": "言語を変えてください"
+  },
+  "query": {
+    "title": "クエリ",
+    "ip": {
+      "title": "IPクエリ",
+      "activity": "IP動作をチェック",
+      "txChartTitle": "トップ10の目的地",
+      "rxChartTitle": "トップ10のソース"
+    },
+    "devices": {
+      "title": "フローソース",
+      "list": "監視デバイス",
+      "findByIP": "デバイスの見"
+    }
+  },
+  "labels": {
+    "query": {
+      "targetIp": "IPアドレスを検索します",
+      "targetIpHelperText": "適切な形式のIPv4またはIPv6アドレスにする必要があります",
+      "targetIpToolTip": "あなたが活動を見たいのIPv4またはIPv6 IP",
+      "serverError": "サーバーエラー",
+      "noData": "申し訳ありませんが、このIPのためのデータはありませんが見つかりませんでした"
+    },
+    "ipLookup": {
+      "country": "国",
+      "as": "AS",
+      "maxSent": "マックスは、送信しました",
+      "maxRecived": "マックスは、受信しました",
+      "grid": {
+        "ipAddress": "IPアドレス",
+        "port": "港",
+        "protocol": "プロトコル",
+        "asn": "ASN",
+        "city": "シティ",
+        "region": "領域",
+        "country": "国",
+        "flowSource": "フローソース",
+        "maxMbps": "マックスMbpsの",
+        "chart": "30日"
+      }
+    },
+    "devices": {
+      "grid": {
+        "title": "フローソースデバイス",
+        "name": "装置名",
+        "description": "説明",
+        "siteName": "サイト名",
+        "ips": "IPアドレス",
+        "kentikPortalUrlLink": " "
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "top": {
+    "title": "",
+    "welcome": "",
+    "lngSelector": ""
+  },
+  "query": {
+    "title": "",
+    "ip": {
+      "title": "",
+      "activity": "",
+      "txChartTitle": "",
+      "rxChartTitle": ""
+    },
+    "devices": {
+      "title": "",
+      "list": "",
+      "findByIP": ""
+    }
+  },
+  "labels": {
+    "query": {
+      "targetIp": "",
+      "targetIpHelperText": "",
+      "targetIpToolTip": "",
+      "serverError": "",
+      "noData": "" 
+    },
+    "ipLookup": {
+      "country": "",
+      "as": "AS",
+      "maxSent": "",
+      "maxRecived": "",
+      "grid": {
+        "ipAddress": "",
+        "port": "",
+        "protocol": "",
+        "asn": "ASN",
+        "city": "",
+        "region": "",
+        "country": "",
+        "flowSource": "",
+        "maxMbps": " Mbps",
+        "chart": ""
+      }
+    },
+    "devices": {
+      "grid": {
+        "title": "",
+        "name": "",
+        "description": "",
+        "siteName": "",
+        "ips": "",
+        "kentikPortalUrlLink": " "
+      }
+    }
+  }
+}

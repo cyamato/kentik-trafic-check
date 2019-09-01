@@ -1,0 +1,58 @@
+{
+  "top": {
+    "title": "Contrôle de débit",
+    "welcome": "Cet outil vous permettra de rechercher rapidement une adresse IP enregistrée pour toute activité enregistrée ou de vérifier si un périphérique est actuellement une source de flux. Les liens vers le portail Kentik Data Engine sont inclus, mais vous devez être connecté au portail Kentik pour pouvoir les utiliser.",
+    "lngSelector": "Changer de langue"
+  },
+  "query": {
+    "title": "Des requêtes",
+    "ip": {
+      "title": "Requêtes IP",
+      "activity": "Vérifier l'activité IP",
+      "txChartTitle": "Haut 10 des destinations",
+      "rxChartTitle": "Haut 10 des sources"
+    },
+    "devices": {
+      "title": "Sources de flux",
+      "list": "Appareils surveillés",
+      "findByIP": "Rechercher un appareil"
+    }
+  },
+  "labels": {
+    "query": {
+      "targetIp": "Adresse IP à rechercher",
+      "targetIpHelperText": "Doit être une adresse IPv4 ou IPv6 correctement formatée",
+      "targetIpToolTip": "Pv4 ou IPv6 IP pour lequel vous souhaitez voir une activité",
+      "serverError": "erreur du serveur",
+      "noData": "Désolé, aucune donnée pour cette adresse IP n'a été trouvée"
+    },
+    "ipLookup": {
+      "country": "Pays",
+      "as": "AS",
+      "maxSent": "Max envoyé",
+      "maxRecived": "Max reçu",
+      "grid": {
+        "ipAddress": "IP Address",
+        "port": "Port",
+        "protocol": "Protocole",
+        "asn": "ASN",
+        "city": "Ville",
+        "region": "Région",
+        "country": "Pays",
+        "flowSource": "Source de flux",
+        "maxMbps": "Max Mbps",
+        "chart": "30 jours"
+      }
+    },
+    "devices": {
+      "grid": {
+        "title": "Dispositifs source de flux",
+        "name": "Nom de l'appareil",
+        "description": "La description",
+        "siteName": "Nom du site",
+        "ips": "Adresses IP",
+        "kentikPortalUrlLink": " "
+      }
+    }
+  }
+}

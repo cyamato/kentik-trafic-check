@@ -1,0 +1,58 @@
+{
+  "top": {
+    "title": "Compruebe el flujo de IBM",
+    "welcome": "Esta herramienta le permitirá comprobar rápidamente para cualquier actividad registrada para una dirección IP o detectar si un dispositivo es actualmente una fuente de flujo. Enlaces al Portal del motor Kentik Se incluyen datos pero que estar conectado con el Portal Kentik requieren el uso de ellos.",
+    "lngSelector": "Cambiar idioma"
+  },
+  "query": {
+    "title": "consultas",
+    "ip": {
+      "title": "IP consultas",
+      "activity": "Compruebe Actividad IP",
+      "txChartTitle": "Los 10 mejores destinos",
+      "rxChartTitle": "Top 10 fuentes"
+    },
+    "devices": {
+      "title": "Fuentes de flujo",
+      "list": "dispositivos supervisados",
+      "findByIP": "Busque dispositivo"
+    }
+  },
+  "labels": {
+    "query": {
+      "targetIp": "dirección IP para las operaciones de búsqueda",
+      "targetIpHelperText": "Debe ser una dirección IPv4 o IPv6 con formato correcto",
+      "targetIpToolTip": "El IP IPv4 o IPv6 para el que le gustaría ver la actividad",
+      "serverError": "Error del Servidor",
+      "noData": "Lo sentimos, no se encontraron datos para este IP" 
+    },
+    "ipLookup": {
+      "country": "País",
+      "as": "AS",
+      "maxSent": "Enviados Max",
+      "maxRecived": "Max Recibidas",
+      "grid": {
+        "ipAddress": "Dirección IP",
+        "port": "Puerto",
+        "protocol": "Protocolo",
+        "asn": "ASN",
+        "city": "Ciudad",
+        "region": "Región",
+        "country": "País",
+        "flowSource": "flow Fuente",
+        "maxMbps": "Max Mbps",
+        "chart": "30 dias"
+      }
+    },
+    "devices": {
+      "grid": {
+        "title": "Aparatos de fuente de flujo",
+        "name": "Nombre del dispositivo",
+        "description": "Descripción",
+        "siteName": "Nombre del sitio",
+        "ips": "Direcciones IP",
+        "kentikPortalUrlLink": " "
+      }
+    }
+  }
+}

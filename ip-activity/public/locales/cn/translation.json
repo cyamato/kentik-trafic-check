@@ -1,0 +1,58 @@
+{
+  "top": {
+    "title": "流量检查",
+    "welcome": "此工具将使您快速检查IP地址的任何记录活动，或检查设备是否是流动源。包含Kentik数据引擎门户的链接，但要求您使用Kentik Portal登录才能使用它们。",
+    "lngSelector": "改变语言"
+  },
+  "query": {
+    "title": "查询",
+    "ip": {
+      "title": "IP查询",
+      "activity": "检查IP活动",
+      "txChartTitle": "十大目的地",
+      "rxChartTitle": "十大来源"
+    },
+    "devices": {
+      "title": "流量来源",
+      "list": "受监控的设备",
+      "findByIP": "寻找设备"
+    }
+  },
+  "labels": {
+    "query": {
+      "targetIp": "要查找的IP地址",
+      "targetIpHelperText": "必须是格式正确的IPv4或IPv6地址",
+      "targetIpToolTip": "您希望查看其活动的IPv4或IPv6 IP",
+      "serverError": "服务器错误",
+      "noData": "对不起，没有找到此IP的数据"
+    },
+    "ipLookup": {
+      "country": "国家",
+      "as": "AS",
+      "maxSent": "最大发送",
+      "maxRecived": "最大收到了",
+      "grid": {
+        "ipAddress": "IP地址",
+        "port": "港口",
+        "protocol": "协议",
+        "asn": "ASN",
+        "city": "市",
+        "region": "区域",
+        "country": "国家",
+        "flowSource": "流动源",
+        "maxMbps": "最大 Mbps",
+        "chart": "三十 天"
+      }
+    },
+    "devices": {
+      "grid": {
+        "title": "流源设备",
+        "name": "设备名称",
+        "description": "描述",
+        "siteName": "网站名称",
+        "ips": "IP地址",
+        "kentikPortalUrlLink": " "
+      }
+    }
+  }
+}

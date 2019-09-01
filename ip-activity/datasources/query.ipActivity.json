@@ -1,0 +1,456 @@
+{
+  "queries": [
+    {
+      "bucket": "tx",
+      "isOverlay": false,
+      "query": {
+        "all_devices": true,
+        "aggregateTypes": [
+          "max_bits_per_sec"
+        ],
+        "aggregateThresholds": {
+          "max_bits_per_sec": 0
+        },
+        "bracketOptions": "",
+        "cidr": 32,
+        "cidr6": 128,
+        "customAsGroups": true,
+        "cutFn": {},
+        "cutFnRegex": {},
+        "cutFnSelector": {},
+        "depth": 100,
+        "descriptor": "",
+        "device_name": [],
+        "device_labels": [],
+        "device_sites": [],
+        "device_types": [],
+        "fastData": "Auto",
+        "filterDimensionsEnabled": false,
+        "filterDimensionName": "Total",
+        "filterDimensionOther": false,
+        "filterDimensions": {
+          "connector": "All",
+          "filterGroups": []
+        },
+        "hostname_lookup": false,
+        "isOverlay": false,
+        "lookback_seconds": 2592000,
+        "generatorDimensions": [],
+        "generatorPanelMinHeight": 250,
+        "generatorMode": false,
+        "generatorColumns": 1,
+        "generatorQueryTitle": "{{generator_series_name}}",
+        "generatorTopx": 8,
+        "matrixBy": [],
+        "metric": [
+          "bytes"
+        ],
+        "mirror": false,
+        "mirrorUnits": true,
+        "outsort": "max_bits_per_sec",
+        "overlay_day": -7,
+        "overlay_timestamp_adjust": false,
+        "query_title": "",
+        "secondaryOutsort": "",
+        "secondaryTopxSeparate": false,
+        "secondaryTopxMirrored": false,
+        "show_overlay": false,
+        "show_total_overlay": true,
+        "starting_time": null,
+        "ending_time": null,
+        "sync_all_axes": false,
+        "sync_axes": false,
+        "sync_extents": true,
+        "show_site_markers": false,
+        "topx": 100,
+        "update_frequency": 0,
+        "use_log_axis": false,
+        "use_secondary_log_axis": false,
+        "viz_type": "stackedArea",
+        "aggregates": [
+          {
+            "value": "max_bits_per_sec",
+            "column": "f_sum_both_bytes",
+            "fn": "max",
+            "label": "Bits/s Sampled at Ingress + Egress Max",
+            "unit": "bytes",
+            "group": "Bits/s Sampled at Ingress + Egress",
+            "origLabel": "Max",
+            "raw": true,
+            "sample_rate": 1,
+            "name": "max_bits_per_sec"
+          }
+        ],
+        "filters_obj": {
+          "connector": "All",
+          "filterGroups": [
+            {
+              "name": "",
+              "named": false,
+              "connector": "All",
+              "not": false,
+              "autoAdded": "",
+              "filters": [
+                {
+                  "filterField": "inet_src_addr",
+                  "operator": "ILIKE",
+                  "filterValue": "8.8.8.8"
+                }
+              ],
+              "saved_filters": [],
+              "filterGroups": []
+            }
+          ]
+        },
+        "dimension": [
+          "IP_dst",
+          "Port_dst",
+          "Proto",
+          "AS_dst",
+          "dst_geo_city",
+          "dst_geo_region",
+          "Geography_dst",
+          "i_device_id"
+        ]
+      }
+    },
+    {
+      "bucket": "rx",
+      "isOverlay": false,
+      "query": {
+        "all_devices": true,
+        "aggregateTypes": [
+          "max_bits_per_sec"
+        ],
+        "aggregateThresholds": {
+          "max_bits_per_sec": 0
+        },
+        "bracketOptions": "",
+        "cidr": 32,
+        "cidr6": 128,
+        "customAsGroups": true,
+        "cutFn": {},
+        "cutFnRegex": {},
+        "cutFnSelector": {},
+        "depth": 100,
+        "descriptor": "",
+        "device_name": [],
+        "device_labels": [],
+        "device_sites": [],
+        "device_types": [],
+        "fastData": "Auto",
+        "filterDimensionsEnabled": false,
+        "filterDimensionName": "Total",
+        "filterDimensionOther": false,
+        "filterDimensions": {
+          "connector": "All",
+          "filterGroups": []
+        },
+        "hostname_lookup": false,
+        "isOverlay": false,
+        "lookback_seconds": 2592000,
+        "generatorDimensions": [],
+        "generatorPanelMinHeight": 250,
+        "generatorMode": false,
+        "generatorColumns": 1,
+        "generatorQueryTitle": "{{generator_series_name}}",
+        "generatorTopx": 8,
+        "matrixBy": [],
+        "metric": [
+          "bytes"
+        ],
+        "mirror": false,
+        "mirrorUnits": true,
+        "outsort": "max_bits_per_sec",
+        "overlay_day": -7,
+        "overlay_timestamp_adjust": false,
+        "query_title": "",
+        "secondaryOutsort": "",
+        "secondaryTopxSeparate": false,
+        "secondaryTopxMirrored": false,
+        "show_overlay": false,
+        "show_total_overlay": true,
+        "starting_time": null,
+        "ending_time": null,
+        "sync_all_axes": false,
+        "sync_axes": false,
+        "sync_extents": true,
+        "show_site_markers": false,
+        "topx": 100,
+        "update_frequency": 0,
+        "use_log_axis": false,
+        "use_secondary_log_axis": false,
+        "viz_type": "stackedArea",
+        "aggregates": [
+          {
+            "value": "max_bits_per_sec",
+            "column": "f_sum_both_bytes",
+            "fn": "max",
+            "label": "Bits/s Sampled at Ingress + Egress Max",
+            "unit": "bytes",
+            "group": "Bits/s Sampled at Ingress + Egress",
+            "origLabel": "Max",
+            "raw": true,
+            "sample_rate": 1,
+            "name": "max_bits_per_sec"
+          }
+        ],
+        "filters_obj": {
+          "connector": "All",
+          "filterGroups": [
+            {
+              "name": "",
+              "named": false,
+              "connector": "All",
+              "not": false,
+              "autoAdded": "",
+              "filters": [
+                {
+                  "filterField": "inet_dst_addr",
+                  "operator": "ILIKE",
+                  "filterValue": "8.8.8.8"
+                }
+              ],
+              "saved_filters": [],
+              "filterGroups": []
+            }
+          ]
+        },
+        "dimension": [
+          "IP_src",
+          "Port_src",
+          "Proto",
+          "AS_src",
+          "src_geo_city",
+          "src_geo_region",
+          "Geography_src",
+          "i_device_id"
+        ]
+      }
+    },
+    {
+      "bucket": "totalTx",
+      "isOverlay": false,
+      "query": {
+        "all_devices": true,
+        "aggregateTypes": [
+          "max_bits_per_sec"
+        ],
+        "aggregateThresholds": {
+          "avg_bits_per_sec": 0,
+          "p95th_bits_per_sec": 0,
+          "max_bits_per_sec": 0
+        },
+        "bracketOptions": "",
+        "cidr": 32,
+        "cidr6": 128,
+        "customAsGroups": true,
+        "cutFn": {},
+        "cutFnRegex": {},
+        "cutFnSelector": {},
+        "depth": 1,
+        "descriptor": "",
+        "device_name": [],
+        "device_labels": [],
+        "device_sites": [],
+        "device_types": [],
+        "fastData": "Auto",
+        "filterDimensionsEnabled": false,
+        "filterDimensionName": "Total",
+        "filterDimensionOther": false,
+        "filterDimensions": {
+          "connector": "All",
+          "filterGroups": []
+        },
+        "hostname_lookup": false,
+        "isOverlay": false,
+        "lookback_seconds": 2592000,
+        "generatorDimensions": [],
+        "generatorPanelMinHeight": 250,
+        "generatorMode": false,
+        "generatorColumns": 1,
+        "generatorQueryTitle": "{{generator_series_name}}",
+        "generatorTopx": 8,
+        "matrixBy": [],
+        "metric": [
+          "bytes"
+        ],
+        "mirror": false,
+        "mirrorUnits": true,
+        "outsort": "max_bits_per_sec",
+        "overlay_day": -7,
+        "overlay_timestamp_adjust": false,
+        "query_title": "",
+        "secondaryOutsort": "",
+        "secondaryTopxSeparate": false,
+        "secondaryTopxMirrored": false,
+        "show_overlay": false,
+        "show_total_overlay": true,
+        "starting_time": null,
+        "ending_time": null,
+        "sync_all_axes": false,
+        "sync_axes": false,
+        "sync_extents": true,
+        "show_site_markers": false,
+        "topx": 1,
+        "update_frequency": 0,
+        "use_log_axis": false,
+        "use_secondary_log_axis": false,
+        "viz_type": "stackedArea",
+        "aggregates": [
+          {
+            "value": "max_bits_per_sec",
+            "column": "f_sum_both_bytes",
+            "fn": "max",
+            "label": "Bits/s Sampled at Ingress + Egress Max",
+            "unit": "bytes",
+            "group": "Bits/s Sampled at Ingress + Egress",
+            "origLabel": "Max",
+            "raw": true,
+            "sample_rate": 1,
+            "name": "max_bits_per_sec"
+          }
+        ],
+        "filters_obj": {
+          "connector": "All",
+          "filterGroups": [
+            {
+              "name": "",
+              "named": false,
+              "connector": "All",
+              "not": false,
+              "autoAdded": "",
+              "filters": [
+                {
+                  "filterField": "inet_src_addr",
+                  "operator": "ILIKE",
+                  "filterValue": "8.8.8.8"
+                }
+              ],
+              "saved_filters": [],
+              "filterGroups": []
+            }
+          ]
+        },
+        "dimension": [
+          "AS_src",
+          "src_geo_city",
+          "src_geo_region",
+          "Geography_src"
+        ]
+      }
+    },
+    {
+      "bucket": "totalRx",
+      "isOverlay": false,
+      "query": {
+        "all_devices": true,
+        "aggregateTypes": [
+          "max_bits_per_sec"
+        ],
+        "aggregateThresholds": {
+          "avg_bits_per_sec": 0,
+          "p95th_bits_per_sec": 0,
+          "max_bits_per_sec": 0
+        },
+        "bracketOptions": "",
+        "cidr": 32,
+        "cidr6": 128,
+        "customAsGroups": true,
+        "cutFn": {},
+        "cutFnRegex": {},
+        "cutFnSelector": {},
+        "depth": 1,
+        "descriptor": "",
+        "device_name": [],
+        "device_labels": [],
+        "device_sites": [],
+        "device_types": [],
+        "fastData": "Auto",
+        "filterDimensionsEnabled": false,
+        "filterDimensionName": "Total",
+        "filterDimensionOther": false,
+        "filterDimensions": {
+          "connector": "All",
+          "filterGroups": []
+        },
+        "hostname_lookup": false,
+        "isOverlay": false,
+        "lookback_seconds": 2592000,
+        "generatorDimensions": [],
+        "generatorPanelMinHeight": 250,
+        "generatorMode": false,
+        "generatorColumns": 1,
+        "generatorQueryTitle": "{{generator_series_name}}",
+        "generatorTopx": 8,
+        "matrixBy": [],
+        "metric": [
+          "bytes"
+        ],
+        "mirror": false,
+        "mirrorUnits": true,
+        "outsort": "max_bits_per_sec",
+        "overlay_day": -7,
+        "overlay_timestamp_adjust": false,
+        "query_title": "",
+        "secondaryOutsort": "",
+        "secondaryTopxSeparate": false,
+        "secondaryTopxMirrored": false,
+        "show_overlay": false,
+        "show_total_overlay": true,
+        "starting_time": null,
+        "ending_time": null,
+        "sync_all_axes": false,
+        "sync_axes": false,
+        "sync_extents": true,
+        "show_site_markers": false,
+        "topx": 1,
+        "update_frequency": 0,
+        "use_log_axis": false,
+        "use_secondary_log_axis": false,
+        "viz_type": "stackedArea",
+        "aggregates": [
+          {
+            "value": "max_bits_per_sec",
+            "column": "f_sum_both_bytes",
+            "fn": "max",
+            "label": "Bits/s Sampled at Ingress + Egress Max",
+            "unit": "bytes",
+            "group": "Bits/s Sampled at Ingress + Egress",
+            "origLabel": "Max",
+            "raw": true,
+            "sample_rate": 1,
+            "name": "max_bits_per_sec"
+          }
+        ],
+        "filters_obj": {
+          "connector": "All",
+          "filterGroups": [
+            {
+              "name": "",
+              "named": false,
+              "connector": "All",
+              "not": false,
+              "autoAdded": "",
+              "filters": [
+                {
+                  "filterField": "inet_dst_addr",
+                  "operator": "ILIKE",
+                  "filterValue": "8.8.8.8"
+                }
+              ],
+              "saved_filters": [],
+              "filterGroups": []
+            }
+          ]
+        },
+        "dimension": [
+          "AS_dst",
+          "dst_geo_city",
+          "dst_geo_region",
+          "Geography_dst"
+        ]
+      }
+    }
+  ]
+}

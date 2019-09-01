@@ -1,0 +1,58 @@
+{
+  "top": {
+    "title": "Flow Check",
+    "welcome": "This tool will allow you to quickly check for any recorded activity for an IP address or check for if a device is currently a flow source.  Links to the Kentik Data Engine Portal are included but require you to be logged in with the Kentik Portal to use them.",
+    "lngSelector": "Change Language"
+  },
+  "query": {
+    "title": "Queries",
+    "ip": {
+      "title": "IP Queries",
+      "activity": "Check IP Activity",
+      "txChartTitle": "Top 10 Destanations",
+      "rxChartTitle": "Top 10 Sources"
+    },
+    "devices": {
+      "title": "Flow Sources",
+      "list": "Monitored Devices",
+      "findByIP": "Look For Device"
+    }
+  },
+  "labels": {
+    "query": {
+      "targetIp": "IP address to lookup",
+      "targetIpHelperText": "Must be a properly formated IPv4 or IPv6 address",
+      "targetIpToolTip": "The IPv4 or IPv6 IP for which you would like to see activity",
+      "serverError": "Server Error",
+      "noData": "Sorry, No data for this IP was found"
+    },
+    "ipLookup": {
+      "country": "Country",
+      "as": "AS",
+      "maxSent": "Max Sent",
+      "maxRecived": "Max Received",
+      "grid": {
+        "ipAddress": "IP Address",
+        "port": "Port",
+        "protocol": "Protocol",
+        "asn": "ASN",
+        "city": "City",
+        "region": "Region",
+        "country": "Country",
+        "flowSource": "Flow Source",
+        "maxMbps": "Max Mbps",
+        "chart": "30 Days"
+      }
+    },
+    "devices": {
+      "grid": {
+        "title": "Flow Source Devices",
+        "name": "Device Name",
+        "description": "Description",
+        "siteName": "Site Name",
+        "ips": "IP Addresses",
+        "kentikPortalUrlLink": " "
+      }
+    }
+  }
+}

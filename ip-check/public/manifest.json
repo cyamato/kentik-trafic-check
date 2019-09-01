@@ -1,0 +1,15 @@
+{
+  "short_name": "IP Activity",
+  "name": "IBM IP Activity Lookup",
+  "icons": [
+    {
+      "src": "favicon-kentik.ico",
+      "sizes": "192x192",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
