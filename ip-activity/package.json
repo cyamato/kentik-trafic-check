@@ -21,7 +21,7 @@
   "dependencies": {
     "bunyan": "^1.8.12",
     "js-yaml": "^3.12.1",
-    "pm2": "^3.3.1",
+    "pm2": "^5.2.0",
     "restify": "^7.7.0",
     "restify-clients": "^2.6.4",
     "restify-errors": "^6.1.1",
